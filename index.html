@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ONG ReTech II</title>
+  <link rel="icon" href="imagens/Logo.png" type="image/icon">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <img src="imagens/Logo.png" alt="Logo da Associação ReTech" loading="lazy">
+    <h1>Associação ReTech</h1>
+    <p>Tecnologia Reciclada para um Futuro Conectado</p>
+  </header>
+
+  <button id="toggle-dark" aria-label="Ativar modo escuro">🌙</button>
+  <button id="toggle-light" aria-label="Ativar modo claro">☀️</button>
+  <button id="toggle-contrast" aria-label="Ativar alto contraste">⚡</button>
+
+
+  <div class="hamburger"
+    onclick="this.classList.toggle('active'); document.querySelector('nav ul').classList.toggle('active')">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="#/">Início</a></li>
+      <li><a href="#/projetos">Sobre o Projeto</a></li>
+      <li><a href="#/cadastro">Cadastro para Doações</a></li>
+      <li><a href="#/contato">Fale Conosco</a></li>
+    </ul>
+  </nav>
+
+  <main id="app"></main>
+
+
+  <footer>
+    <p>
+      📍 São Paulo, SP | ✉️ contato@retech.org.br | 🌐 www.retech.org.br | 📱 @retechbrasil
+    </p>
+  </footer>
+
+
+  <script src="js/core/utils.js"></script>
+  <script src="js/core/storage.js"></script>
+  <script src="js/core/templates.js"></script>
+  <script src="js/core/router.js"></script>
+
+  <script src="js/features/formValidation.js"></script>
+  <script src="js/features/cadastro.js"></script>
+  <script src="js/features/contato.js"></script>
+  <script src="js/features/projetos.js"></script>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
