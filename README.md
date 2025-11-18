@@ -1,4 +1,4 @@
-# 🌍 Front-End Para Web - ONG ReTech IV
+# 🌱 Front-End Para Web ONG ReTech IV
 
 Projeto desenvolvido como parte da **Experiência Prática IV** da disciplina de Front-End para Web.  
 Objetivo: consolidar práticas profissionais de **versionamento**, **acessibilidade** e **deploy em produção**.
